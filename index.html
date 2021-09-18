@@ -4,14 +4,55 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Latitude</title>
 </head>
 <body>
-    <h1>Latitude</h1>
-  <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Latitude</a>
+            <!---this is all within the navbar container-->
+            <button class="navbar-toggler" type="button"
+            data_bs_toggle="collapse" data-bs-target="navmenu">
+        >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--not working properly-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!--this should allow it to collapse on smaller screens--->
+                <ul class="navbar-nav ms-auto">
+                    <!--the ms-auto will align the lis to the right-->
+                    <li>
+                        <a href="Max Temp" class="nav-link">Max Temp</a>
+                    </li>
+                    <li>
+                        <a href="Humidity" class="nav-link">Humidity</a>
+                    </li>
+                    <li>
+                        <a href="Cloudiness" class="nav-link">Cloudiness</a>
+                    </li>
+                    <!--these lis make sub headers-->
+                    <li>
+                      <a href="Wind Speed" class="nav-link">Wind Speed</a>
+                  </li>
+                  <li>
+                    <a href="Data" class="nav-link">Data</a>
+                  </li>
+                  <li>
+                    <a href="Comparisons" class='nav-link'>Comparisons</a>
+                  </li>
+                </ul>
 
-  <link rel="stylesheet" href="style.css">
+            </div>
+            
+        </div>
+
+        
+    </nav>
+    <section class="bg-dark text-light text-center">
+
   <p>The purpose of this project is to analyze how weather
       changes as you get closer to the equator. To accomplish
       this analysis I pulled data from OpenWeatherMap API
@@ -20,6 +61,9 @@
       After putting together the dataset we used Matplotlib to illustrate various 
       factors of weather vs. latitude. This site provides the source data as well as descriptions
       of trends witnessed.
-  </p>
+     </p>
+    </section>
+  <a href="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_cloudiness_regression_scatter.png?raw=true" target="blank"></a>
+  <img src="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_cloudiness_regression_scatter.png?raw=true">
   </body>
   <html></html>
