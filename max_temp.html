@@ -1,12 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="Latitude" content="">
+    <link rel="icon" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title></title>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>Weather vs. Latitude</title>
+    </head>
+
+    <body>
+ 
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <a href="index.html" class="navbar-brand">Weather and Latitude</a>
+        <!---this is all within the navbar container-->
+        <button class="navbar-toggler" type="button"
+        data_bs_toggle="collapse" data-bs-target="navmenu">
+    >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navmenu">
+            <!--this should allow it to collapse on smaller screens--->
+            <ul class="navbar-nav ms-auto">
+                <!--the ms-auto will align the lis to the right-->
+                   
+                   <   <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                   <li><a class="dropdown-item" href="comparisons.html">Comparisons</a></li>
+                   <li><a class="dropdown-item" href="data.html">Data</a></li>
+                   <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                   <li><a class="dropdown-item" href=max_temp.html>Max Temp</a></li>
+                   <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+               </ul>
+           </li>
+       </ul>
+              </li>
+            </ul>
+        </div>
+</nav>
+
+    <main role="main">
+     
+      
+      <div class="col-md-6">
+        <div class="card mb-6">
+            <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_maxtemp_regression_scatter.png?raw=true target="_blank"></a>
+            <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_maxtemp_regression_scatter.png?raw=true"
+          width = "500"
+          height = "400">
+          <div class="card-body">
+            <p class="card-text">This plot is for the Northern Hemisphere, and as one would expect, there is a strong level of correlation between latitude and maximum
+                temperature. Namely that as one moves towards the poles maximum temperature tends to drop. Addionally the cities
+                with the highest temperatures were at 30-40 degrees latitude, which I found a bit interesting seeing as the world's 
+                hottest deserts are 15-30 degrees in the Northern Hemisphere. Perhaps this is due to people living just north of the deserts,
+                but without examining the longitudes this cannot be determined.
+            </p>
+          
+             
+               
+          
+               
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-6">
+            <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_maxtemp_regression_scatter.png?raw=true target="_blank"></a>
+            <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_maxtemp_regression_scatter.png?raw=true"
+          width = "500"
+          height ="400"/>
+            <p class="card-text">In the Southern Hemisphere there seems to be a direct correllation between
+                latitude and max temperature, in that the temperature goes down as one goes further south. The 
+                data is quite evenly distributed around the regression line, and we don't see some of the variation
+                that was observed in the Northern Hemisphere. 
+            </p>
+           
+          
+                
+                
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+            
+      
+            
+            
+            
+
+            
+            
+            
+          
+
+    </main>
+
     
-</body>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../../js/vendor/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="439" height="225" viewBox="0 0 439 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="22" style="font-weight:bold;font-size:22pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
 </html>
