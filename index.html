@@ -1,69 +1,213 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="us"></html>
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Latitude</title>
-</head>
-<body>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">Latitude</a>
-            <!---this is all within the navbar container-->
-            <button class="navbar-toggler" type="button"
-            data_bs_toggle="collapse" data-bs-target="navmenu">
-        >
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--not working properly-->
-            <div class="collapse navbar-collapse" id="navmenu">
-                <!--this should allow it to collapse on smaller screens--->
-                <ul class="navbar-nav ms-auto">
-                    <!--the ms-auto will align the lis to the right-->
-                    <li>
-                        <a href="Max Temp" class="nav-link">Max Temp</a>
-                    </li>
-                    <li>
-                        <a href="Humidity" class="nav-link">Humidity</a>
-                    </li>
-                    <li>
-                        <a href="Cloudiness" class="nav-link">Cloudiness</a>
-                    </li>
-                    <!--these lis make sub headers-->
-                    <li>
-                      <a href="Wind Speed" class="nav-link">Wind Speed</a>
-                  </li>
-                  <li>
-                    <a href="Data" class="nav-link">Data</a>
-                  </li>
-                  <li>
-                    <a href="Comparisons" class='nav-link'>Comparisons</a>
-                  </li>
-                </ul>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="Latitude" content="">
+    <link rel="icon" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-            </div>
+    <title></title>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>Latitude</title>
+    </head>
+    <body>
+      <body>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+         
+                <a href="#" class="navbar-brand">Latitude</a>
+                <!---this is all within the navbar container-->
+                <button class="navbar-toggler" type="button"
+                data_bs_toggle="collapse" data-bs-target="navmenu">
+            >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--not working properly-->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <!--this should allow it to collapse on smaller screens--->
+                    <ul class="navbar-nav ms-auto">
+                        <!--the ms-auto will align the lis to the right-->
+                  
+                    </ul>
+    
+                </div>
+                
             
+        </nav>
+        <section class="bg-dark text-light text-center">
+    
+      <p>The purpose of this project is to analyze how weather
+          changes as you get closer to the equator. To accomplish
+          this analysis I pulled data from OpenWeatherMap API
+          to assemble a dataset of over 500 cities.
+          <br>
+          After putting together the dataset we used Matplotlib to illustrate various 
+          factors of weather vs. latitude. This site provides the source data as well as descriptions
+          of trends witnessed.
+         </p>
+        </section>
+          <p>
+          </p>
         </div>
+      </section>
 
+      <div class="album py-5 bg-light">
         
-    </nav>
-    <section class="bg-dark text-light text-center">
 
-  <p>The purpose of this project is to analyze how weather
-      changes as you get closer to the equator. To accomplish
-      this analysis I pulled data from OpenWeatherMap API
-      to assemble a dataset of over 500 cities.
-      <br>
-      After putting together the dataset we used Matplotlib to illustrate various 
-      factors of weather vs. latitude. This site provides the source data as well as descriptions
-      of trends witnessed.
-     </p>
-    </section>
-  <a href="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_cloudiness_regression_scatter.png?raw=true" target="blank"></a>
-  <img src="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_cloudiness_regression_scatter.png?raw=true">
-  </body>
-  <html></html>
+          
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_cloudiness_regression_scatter.png?raw=true" target="_blank"></a>
+                <img src="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_cloudiness_regression_scatter.png?raw=true">
+                <div class="card-body">
+                  <p class="card-text">For the Northern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                     
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_cloudiness_regression_scatter.png?raw=true" target="_blank"></a>
+                <img src ="https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_cloudiness_regression_scatter.png?raw=true">
+                  <p class="card-text">For the Southern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_humidity_regression_scatter.png?raw=true" target="_blank"></a>
+                  <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_humidity_regression_scatter.png?raw=true">
+                <div class="card-body">
+                  <p class="card-text">For the Northern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_humidity_regression_scatter.png?raw=true" target="_blank"></a>
+                <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_humidity_regression_scatter.png?raw=true">
+                <div class="card-body">
+                  <p class="card-text">For the Southern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_maxtemp_regression_scatter.png?raw=true target="_blank"></a>
+                <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_maxtemp_regression_scatter.png?raw=true">
+                <div class="card-body">
+                  <p class="card-text">For the Northern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_maxtemp_regression_scatter.png?raw=true target="_blank"></a>
+                <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_maxtemp_regression_scatter.png?raw=true">   
+                             <div class="card-body">
+                  <p class="card-text">For the Southern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_wind_speed_regression_scatter.png?raw=true target="_blank"></a>
+                <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/north_wind_speed_regression_scatter.png?raw=true">                  <div class="card-body">
+                  <p class="card-text">For the Northern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href=https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_wind_speed_regression_scatter.png?raw=true target="_blank"></a>
+                <img src = "https://github.com/dkoski23/Web-Design-Challenge/blob/main/visualizations/south_wind_speed_regression_scatter.png?raw=true">                   <div class="card-body">
+                  <p class="card-text">For the Southern Hemisphere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../../js/vendor/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="208" height="225" viewBox="0 0 208 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="11" style="font-weight:bold;font-size:11pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
+</html>
