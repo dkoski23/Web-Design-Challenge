@@ -7,3 +7,5 @@ Cities.csv in the Resources folder holds the csv file with all of the data, and 
 The csv_to_html.ipynb is a short Jupyter Notebook in which I convert the original csv file into html, which is rendered as a data frame on the webpage data.html.
 
 This website is hosted on github, with index.html referencing all the other pages. Additionally, each webpage has a header linking to the other webpages.
+
+The url is: https://dkoski23.github.io/Web-Design-Challenge/
